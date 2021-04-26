@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch
+CMAKE_SOURCE_DIR = /mnt/c/Users/Cam/Desktop/HFT/CamCapital
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/bin
+CMAKE_BINARY_DIR = /mnt/c/Users/Cam/Desktop/HFT/CamCapital/bin
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/bin && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/bin/CMakeFiles /mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/bin/src/Strategies/CMakeFiles/progress.marks
-	cd /mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/bin && $(MAKE) -f CMakeFiles/Makefile2 src/Strategies/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/bin/CMakeFiles 0
+	cd /mnt/c/Users/Cam/Desktop/HFT/CamCapital/bin && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Cam/Desktop/HFT/CamCapital/bin/CMakeFiles /mnt/c/Users/Cam/Desktop/HFT/CamCapital/bin/src/Strategies/CMakeFiles/progress.marks
+	cd /mnt/c/Users/Cam/Desktop/HFT/CamCapital/bin && $(MAKE) -f CMakeFiles/Makefile2 src/Strategies/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Cam/Desktop/HFT/CamCapital/bin/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/bin && $(MAKE) -f CMakeFiles/Makefile2 src/Strategies/clean
+	cd /mnt/c/Users/Cam/Desktop/HFT/CamCapital/bin && $(MAKE) -f CMakeFiles/Makefile2 src/Strategies/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/bin && $(MAKE) -f CMakeFiles/Makefile2 src/Strategies/preinstall
+	cd /mnt/c/Users/Cam/Desktop/HFT/CamCapital/bin && $(MAKE) -f CMakeFiles/Makefile2 src/Strategies/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/bin && $(MAKE) -f CMakeFiles/Makefile2 src/Strategies/preinstall
+	cd /mnt/c/Users/Cam/Desktop/HFT/CamCapital/bin && $(MAKE) -f CMakeFiles/Makefile2 src/Strategies/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/bin && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/c/Users/Cam/Desktop/HFT/CamCapital/bin && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/Strategies/CMakeFiles/Strategies.dir/rule:
-	cd /mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/bin && $(MAKE) -f CMakeFiles/Makefile2 src/Strategies/CMakeFiles/Strategies.dir/rule
+	cd /mnt/c/Users/Cam/Desktop/HFT/CamCapital/bin && $(MAKE) -f CMakeFiles/Makefile2 src/Strategies/CMakeFiles/Strategies.dir/rule
 .PHONY : src/Strategies/CMakeFiles/Strategies.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ Strategies: src/Strategies/CMakeFiles/Strategies.dir/rule
 
 # fast build rule for target.
 Strategies/fast:
-	cd /mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/bin && $(MAKE) -f src/Strategies/CMakeFiles/Strategies.dir/build.make src/Strategies/CMakeFiles/Strategies.dir/build
+	cd /mnt/c/Users/Cam/Desktop/HFT/CamCapital/bin && $(MAKE) -f src/Strategies/CMakeFiles/Strategies.dir/build.make src/Strategies/CMakeFiles/Strategies.dir/build
 .PHONY : Strategies/fast
 
 marketMaking.o: marketMaking.cc.o
@@ -131,7 +131,7 @@ marketMaking.o: marketMaking.cc.o
 
 # target to build an object file
 marketMaking.cc.o:
-	cd /mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/bin && $(MAKE) -f src/Strategies/CMakeFiles/Strategies.dir/build.make src/Strategies/CMakeFiles/Strategies.dir/marketMaking.cc.o
+	cd /mnt/c/Users/Cam/Desktop/HFT/CamCapital/bin && $(MAKE) -f src/Strategies/CMakeFiles/Strategies.dir/build.make src/Strategies/CMakeFiles/Strategies.dir/marketMaking.cc.o
 .PHONY : marketMaking.cc.o
 
 marketMaking.i: marketMaking.cc.i
@@ -140,7 +140,7 @@ marketMaking.i: marketMaking.cc.i
 
 # target to preprocess a source file
 marketMaking.cc.i:
-	cd /mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/bin && $(MAKE) -f src/Strategies/CMakeFiles/Strategies.dir/build.make src/Strategies/CMakeFiles/Strategies.dir/marketMaking.cc.i
+	cd /mnt/c/Users/Cam/Desktop/HFT/CamCapital/bin && $(MAKE) -f src/Strategies/CMakeFiles/Strategies.dir/build.make src/Strategies/CMakeFiles/Strategies.dir/marketMaking.cc.i
 .PHONY : marketMaking.cc.i
 
 marketMaking.s: marketMaking.cc.s
@@ -149,7 +149,7 @@ marketMaking.s: marketMaking.cc.s
 
 # target to generate assembly for a file
 marketMaking.cc.s:
-	cd /mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/bin && $(MAKE) -f src/Strategies/CMakeFiles/Strategies.dir/build.make src/Strategies/CMakeFiles/Strategies.dir/marketMaking.cc.s
+	cd /mnt/c/Users/Cam/Desktop/HFT/CamCapital/bin && $(MAKE) -f src/Strategies/CMakeFiles/Strategies.dir/build.make src/Strategies/CMakeFiles/Strategies.dir/marketMaking.cc.s
 .PHONY : marketMaking.cc.s
 
 # Help Target
@@ -175,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/bin && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/c/Users/Cam/Desktop/HFT/CamCapital/bin && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

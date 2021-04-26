@@ -3,7 +3,7 @@
 
 src/CMakeFiles/example.dir/example.cc.o: ../src/External/json.hpp
 src/CMakeFiles/example.dir/example.cc.o: ../src/Strategies/marketMaking.h
-src/CMakeFiles/example.dir/example.cc.o: ../src/WS/WS.h
+src/CMakeFiles/example.dir/example.cc.o: ../src/Utilities/WS.h
 src/CMakeFiles/example.dir/example.cc.o: ../src/WS/client.h
 src/CMakeFiles/example.dir/example.cc.o: ../src/example.cc
 

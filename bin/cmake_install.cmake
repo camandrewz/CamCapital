@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch
+# Install script for directory: /mnt/c/Users/Cam/Desktop/HFT/CamCapital
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,9 +39,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/bin/src/WS/cmake_install.cmake")
-  include("/mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/bin/src/Strategies/cmake_install.cmake")
-  include("/mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/bin/src/cmake_install.cmake")
+  include("/mnt/c/Users/Cam/Desktop/HFT/CamCapital/bin/src/WS/cmake_install.cmake")
+  include("/mnt/c/Users/Cam/Desktop/HFT/CamCapital/bin/src/Strategies/cmake_install.cmake")
+  include("/mnt/c/Users/Cam/Desktop/HFT/CamCapital/bin/src/Rest/cmake_install.cmake")
+  include("/mnt/c/Users/Cam/Desktop/HFT/CamCapital/bin/src/Utilities/cmake_install.cmake")
+  include("/mnt/c/Users/Cam/Desktop/HFT/CamCapital/bin/src/cmake_install.cmake")
 
 endif()
 
@@ -53,5 +55,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/bin/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/mnt/c/Users/Cam/Desktop/HFT/CamCapital/bin/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

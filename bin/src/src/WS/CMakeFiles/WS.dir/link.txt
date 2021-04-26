@@ -1,2 +1,0 @@
-/usr/bin/ar qc libWS.a  CMakeFiles/WS.dir/WS.cc.o CMakeFiles/WS.dir/client.cc.o
-/usr/bin/ranlib libWS.a

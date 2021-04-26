@@ -19,4 +19,6 @@ include_directories(SYSTEM src/external)
 
 add_subdirectory(src/WS)
 add_subdirectory(src/Strategies)
+add_subdirectory(src/Rest)
+add_subdirectory(src/Utilities)
 add_subdirectory(src)

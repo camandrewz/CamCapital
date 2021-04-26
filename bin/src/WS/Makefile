@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch
+CMAKE_SOURCE_DIR = /mnt/c/Users/Cam/Desktop/HFT/CamCapital
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/bin
+CMAKE_BINARY_DIR = /mnt/c/Users/Cam/Desktop/HFT/CamCapital/bin
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/bin && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/bin/CMakeFiles /mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/bin/src/WS/CMakeFiles/progress.marks
-	cd /mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/bin && $(MAKE) -f CMakeFiles/Makefile2 src/WS/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/bin/CMakeFiles 0
+	cd /mnt/c/Users/Cam/Desktop/HFT/CamCapital/bin && $(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Cam/Desktop/HFT/CamCapital/bin/CMakeFiles /mnt/c/Users/Cam/Desktop/HFT/CamCapital/bin/src/WS/CMakeFiles/progress.marks
+	cd /mnt/c/Users/Cam/Desktop/HFT/CamCapital/bin && $(MAKE) -f CMakeFiles/Makefile2 src/WS/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Cam/Desktop/HFT/CamCapital/bin/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/bin && $(MAKE) -f CMakeFiles/Makefile2 src/WS/clean
+	cd /mnt/c/Users/Cam/Desktop/HFT/CamCapital/bin && $(MAKE) -f CMakeFiles/Makefile2 src/WS/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/bin && $(MAKE) -f CMakeFiles/Makefile2 src/WS/preinstall
+	cd /mnt/c/Users/Cam/Desktop/HFT/CamCapital/bin && $(MAKE) -f CMakeFiles/Makefile2 src/WS/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/bin && $(MAKE) -f CMakeFiles/Makefile2 src/WS/preinstall
+	cd /mnt/c/Users/Cam/Desktop/HFT/CamCapital/bin && $(MAKE) -f CMakeFiles/Makefile2 src/WS/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/bin && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /mnt/c/Users/Cam/Desktop/HFT/CamCapital/bin && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/WS/CMakeFiles/WS.dir/rule:
-	cd /mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/bin && $(MAKE) -f CMakeFiles/Makefile2 src/WS/CMakeFiles/WS.dir/rule
+	cd /mnt/c/Users/Cam/Desktop/HFT/CamCapital/bin && $(MAKE) -f CMakeFiles/Makefile2 src/WS/CMakeFiles/WS.dir/rule
 .PHONY : src/WS/CMakeFiles/WS.dir/rule
 
 # Convenience name for target.
@@ -122,35 +122,8 @@ WS: src/WS/CMakeFiles/WS.dir/rule
 
 # fast build rule for target.
 WS/fast:
-	cd /mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/bin && $(MAKE) -f src/WS/CMakeFiles/WS.dir/build.make src/WS/CMakeFiles/WS.dir/build
+	cd /mnt/c/Users/Cam/Desktop/HFT/CamCapital/bin && $(MAKE) -f src/WS/CMakeFiles/WS.dir/build.make src/WS/CMakeFiles/WS.dir/build
 .PHONY : WS/fast
-
-WS.o: WS.cc.o
-
-.PHONY : WS.o
-
-# target to build an object file
-WS.cc.o:
-	cd /mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/bin && $(MAKE) -f src/WS/CMakeFiles/WS.dir/build.make src/WS/CMakeFiles/WS.dir/WS.cc.o
-.PHONY : WS.cc.o
-
-WS.i: WS.cc.i
-
-.PHONY : WS.i
-
-# target to preprocess a source file
-WS.cc.i:
-	cd /mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/bin && $(MAKE) -f src/WS/CMakeFiles/WS.dir/build.make src/WS/CMakeFiles/WS.dir/WS.cc.i
-.PHONY : WS.cc.i
-
-WS.s: WS.cc.s
-
-.PHONY : WS.s
-
-# target to generate assembly for a file
-WS.cc.s:
-	cd /mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/bin && $(MAKE) -f src/WS/CMakeFiles/WS.dir/build.make src/WS/CMakeFiles/WS.dir/WS.cc.s
-.PHONY : WS.cc.s
 
 client.o: client.cc.o
 
@@ -158,7 +131,7 @@ client.o: client.cc.o
 
 # target to build an object file
 client.cc.o:
-	cd /mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/bin && $(MAKE) -f src/WS/CMakeFiles/WS.dir/build.make src/WS/CMakeFiles/WS.dir/client.cc.o
+	cd /mnt/c/Users/Cam/Desktop/HFT/CamCapital/bin && $(MAKE) -f src/WS/CMakeFiles/WS.dir/build.make src/WS/CMakeFiles/WS.dir/client.cc.o
 .PHONY : client.cc.o
 
 client.i: client.cc.i
@@ -167,7 +140,7 @@ client.i: client.cc.i
 
 # target to preprocess a source file
 client.cc.i:
-	cd /mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/bin && $(MAKE) -f src/WS/CMakeFiles/WS.dir/build.make src/WS/CMakeFiles/WS.dir/client.cc.i
+	cd /mnt/c/Users/Cam/Desktop/HFT/CamCapital/bin && $(MAKE) -f src/WS/CMakeFiles/WS.dir/build.make src/WS/CMakeFiles/WS.dir/client.cc.i
 .PHONY : client.cc.i
 
 client.s: client.cc.s
@@ -176,7 +149,7 @@ client.s: client.cc.s
 
 # target to generate assembly for a file
 client.cc.s:
-	cd /mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/bin && $(MAKE) -f src/WS/CMakeFiles/WS.dir/build.make src/WS/CMakeFiles/WS.dir/client.cc.s
+	cd /mnt/c/Users/Cam/Desktop/HFT/CamCapital/bin && $(MAKE) -f src/WS/CMakeFiles/WS.dir/build.make src/WS/CMakeFiles/WS.dir/client.cc.s
 .PHONY : client.cc.s
 
 # Help Target
@@ -188,9 +161,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... WS"
-	@echo "... WS.o"
-	@echo "... WS.i"
-	@echo "... WS.s"
 	@echo "... client.o"
 	@echo "... client.i"
 	@echo "... client.s"
@@ -205,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/bin && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /mnt/c/Users/Cam/Desktop/HFT/CamCapital/bin && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

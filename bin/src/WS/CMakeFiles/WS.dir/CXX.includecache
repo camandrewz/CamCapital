@@ -340,8 +340,8 @@ limits
 type_traits
 -
 
-/mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/src/WS/WS.h
-../External/json.hpp
+/mnt/c/Users/Cam/Desktop/HFT/CamCapital/src/Utilities/WS.h
+External/json.hpp
 -
 functional
 -
@@ -350,15 +350,15 @@ websocketpp/client.hpp
 websocketpp/config/asio_client.hpp
 -
 
-/mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/src/WS/client.cc
+/mnt/c/Users/Cam/Desktop/HFT/CamCapital/src/WS/client.cc
 client.h
-/mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/src/WS/client.h
+/mnt/c/Users/Cam/Desktop/HFT/CamCapital/src/WS/client.h
 utility
 -
 
-/mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/src/WS/client.h
-WS.h
-/mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/src/WS/WS.h
+/mnt/c/Users/Cam/Desktop/HFT/CamCapital/src/WS/client.h
+../Utilities/WS.h
+/mnt/c/Users/Cam/Desktop/HFT/CamCapital/src/Utilities/WS.h
 ../External/json.hpp
 -
 string

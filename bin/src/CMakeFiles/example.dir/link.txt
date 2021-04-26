@@ -1,1 +1,1 @@
-/usr/bin/c++  -Wall -Werror -Wfatal-errors -Wpedantic -Wextra -Wmissing-include-dirs -Wconversion -Wsign-conversion -pthread   CMakeFiles/example.dir/example.cc.o  -o example  -lssl -lcrypto WS/libWS.a Strategies/libStrategies.a -lssl -lcrypto 
+/usr/bin/c++  -Wall -Werror -Wfatal-errors -Wpedantic -Wextra -Wmissing-include-dirs -Wconversion -Wsign-conversion -pthread   CMakeFiles/example.dir/example.cc.o  -o example  -lssl -lcrypto WS/libWS.a Strategies/libStrategies.a Rest/libRest.a Utilities/libUtilities.a -lssl -lcrypto 

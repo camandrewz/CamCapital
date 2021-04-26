@@ -1,6 +1,6 @@
 #pragma once
 
-#include "WS.h"
+#include "../Utilities/WS.h"
 #include <../External/json.hpp>
 #include <string>
 #include <vector>

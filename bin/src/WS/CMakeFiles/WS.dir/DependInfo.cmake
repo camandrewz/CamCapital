@@ -4,8 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/src/WS/WS.cc" "/mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/bin/src/WS/CMakeFiles/WS.dir/WS.cc.o"
-  "/mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/src/WS/client.cc" "/mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/bin/src/WS/CMakeFiles/WS.dir/client.cc.o"
+  "/mnt/c/Users/Cam/Desktop/HFT/CamCapital/src/WS/client.cc" "/mnt/c/Users/Cam/Desktop/HFT/CamCapital/bin/src/WS/CMakeFiles/WS.dir/client.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

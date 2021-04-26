@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/WS.dir/WS.cc.o"
   "CMakeFiles/WS.dir/client.cc.o"
   "libWS.a"
   "libWS.pdb"

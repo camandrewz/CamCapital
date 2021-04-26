@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/src/Strategies
+# Install script for directory: /mnt/c/Users/Cam/Desktop/HFT/CamCapital/src/Strategies
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -12,7 +12,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.16.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.16.3/CMakeSystem.cmake"
   "../src/CMakeLists.txt"
+  "../src/Rest/CMakeLists.txt"
   "../src/Strategies/CMakeLists.txt"
+  "../src/Utilities/CMakeLists.txt"
   "../src/WS/CMakeLists.txt"
   "/usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfigVersion.cmake"
@@ -53,6 +55,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/WS/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/Strategies/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/Rest/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "src/Utilities/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
@@ -60,5 +64,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "src/WS/CMakeFiles/WS.dir/DependInfo.cmake"
   "src/Strategies/CMakeFiles/Strategies.dir/DependInfo.cmake"
+  "src/Rest/CMakeFiles/Rest.dir/DependInfo.cmake"
+  "src/Utilities/CMakeFiles/Utilities.dir/DependInfo.cmake"
   "src/CMakeFiles/example.dir/DependInfo.cmake"
   )

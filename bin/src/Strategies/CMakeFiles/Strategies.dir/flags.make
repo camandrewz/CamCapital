@@ -6,5 +6,5 @@ CXX_FLAGS = -Wall -Werror -Wfatal-errors -Wpedantic -Wextra -Wmissing-include-di
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/src -isystem /mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/src/external 
+CXX_INCLUDES = -I/mnt/c/Users/Cam/Desktop/HFT/CamCapital/src -isystem /mnt/c/Users/Cam/Desktop/HFT/CamCapital/src/external 
 

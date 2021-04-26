@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch
+CMAKE_SOURCE_DIR = /mnt/c/Users/Cam/Desktop/HFT/CamCapital
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/bin
+CMAKE_BINARY_DIR = /mnt/c/Users/Cam/Desktop/HFT/CamCapital/bin
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/bin/CMakeFiles /mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/bin/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Cam/Desktop/HFT/CamCapital/bin/CMakeFiles /mnt/c/Users/Cam/Desktop/HFT/CamCapital/bin/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Cam/Desktop/HFT/WS_FromScratch/bin/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/Cam/Desktop/HFT/CamCapital/bin/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -137,6 +137,32 @@ Strategies/fast:
 .PHONY : Strategies/fast
 
 #=============================================================================
+# Target rules for targets named Rest
+
+# Build rule for target.
+Rest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Rest
+.PHONY : Rest
+
+# fast build rule for target.
+Rest/fast:
+	$(MAKE) -f src/Rest/CMakeFiles/Rest.dir/build.make src/Rest/CMakeFiles/Rest.dir/build
+.PHONY : Rest/fast
+
+#=============================================================================
+# Target rules for targets named Utilities
+
+# Build rule for target.
+Utilities: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Utilities
+.PHONY : Utilities
+
+# fast build rule for target.
+Utilities/fast:
+	$(MAKE) -f src/Utilities/CMakeFiles/Utilities.dir/build.make src/Utilities/CMakeFiles/Utilities.dir/build
+.PHONY : Utilities/fast
+
+#=============================================================================
 # Target rules for targets named example
 
 # Build rule for target.
@@ -159,6 +185,8 @@ help:
 	@echo "... edit_cache"
 	@echo "... WS"
 	@echo "... Strategies"
+	@echo "... Rest"
+	@echo "... Utilities"
 	@echo "... example"
 .PHONY : help
 
