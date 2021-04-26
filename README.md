@@ -9,3 +9,8 @@ Resources Used:
 - https://www.reddit.com/r/highfreqtrading/
 - https://www.reddit.com/r/algotrading/
 - https://docs.ftx.us/#overview
+
+
+Example of Pseudo-Market-Making... without actually trading... if there was 0 latency... and takers for all my orders:
+
+![Animation](https://user-images.githubusercontent.com/20567677/116160523-351da900-a6c0-11eb-81c1-e87e7a5ea992.gif)
