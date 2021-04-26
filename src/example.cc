@@ -20,7 +20,7 @@ int main()
     ftx::WSClient client;
     //client.subscribe_orders("BTC-USD");
     //client.subscribe_orderbook("DOGE/USD");
-    client.subscribe_ticker("DOGE/USD");
+    client.subscribe_ticker("BCH/USD");
 
     client.on_message([&](std::string j) {
         json tick = json::parse(j);
