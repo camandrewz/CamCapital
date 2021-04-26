@@ -1,6 +1,8 @@
 # CamCapital
 Personal Project that implements a variety of HFT strategies in C++
 
+This is still very much a work in progress. I hope to continue development into the future, adding more strategies, perhaps a dashboard of some kind, and importantly, the ability to trade via the FIX protocol.
+
 Exchange: FTX.us
 
 Resources Used:
