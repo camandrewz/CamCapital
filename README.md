@@ -17,5 +17,5 @@ Example of Pseudo-Market-Making (BCH/USD)... without actually trading... if ther
 - This is using realtime data from FTX using a websocket, and conducting realtime analysis to determine profitable trades.
 
 <p align="center">
-  ![Animation](https://user-images.githubusercontent.com/20567677/116160523-351da900-a6c0-11eb-81c1-e87e7a5ea992.gif)
+  <img src="https://user-images.githubusercontent.com/20567677/116160523-351da900-a6c0-11eb-81c1-e87e7a5ea992.gif">
 </p>
