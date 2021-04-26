@@ -1,0 +1,2 @@
+/usr/bin/ar qc libStrategies.a  CMakeFiles/Strategies.dir/marketMaking.cc.o
+/usr/bin/ranlib libStrategies.a

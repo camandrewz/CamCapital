@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsrc.a  CMakeFiles/src.dir/client.cc.o CMakeFiles/src.dir/example.cc.o
+/usr/bin/ranlib libsrc.a
