@@ -1,0 +1,2 @@
+/usr/bin/ar qc libUtilities.a  CMakeFiles/Utilities.dir/HTTP.cc.o CMakeFiles/Utilities.dir/WS.cc.o
+/usr/bin/ranlib libUtilities.a

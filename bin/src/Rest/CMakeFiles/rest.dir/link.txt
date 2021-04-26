@@ -1,0 +1,2 @@
+/usr/bin/ar qc libRest.a  CMakeFiles/Rest.dir/client.cc.o
+/usr/bin/ranlib libRest.a
