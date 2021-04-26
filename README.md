@@ -16,7 +16,7 @@ Resources Used:
 ******************************************************************************************************************************************************************
 
 
-Example of Pseudo-Market-Making (BCH/USD)... without actually trading... if there was 0 latency... and takers for all my orders:
+Example of Pseudo-Market-Making (BCH/USD)... without actually trading... and if there was 0 latency... and takers for all my orders:
 - This is using realtime data from FTX using a websocket, and conducting realtime analysis to determine profitable trades.
 
 <p align="center">
