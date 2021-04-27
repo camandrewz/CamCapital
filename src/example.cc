@@ -18,8 +18,7 @@ int main()
     int count = 0;
 
     ftx::WSClient client;
-    //client.subscribe_orders("BTC-USD");
-    //client.subscribe_orderbook("DOGE/USD");
+
     client.subscribe_ticker("BCH/USD");
 
     client.on_message([&](std::string j) {
@@ -33,15 +32,13 @@ int main()
         }
 
         double fees = .001;
-        double size = aum/ask;
-
+        double size = aum / ask;
         double profit = MM::mmIsProfitable(fees, bid, ask, size);
 
         count++;
 
         if (profit > 0)
         {
-
             aum += profit;
 
             std::cout << "Market Make Possible! Profit: " << profit << '\n';
@@ -49,10 +46,8 @@ int main()
         }
         else
         {
-
             if (count % 10 == 0)
             {
-                //std::cout << "Market Make Not Possible! Profit: " << profit << '\n';
                 std::cout << "AUM: " << aum << '\n';
             }
         }
