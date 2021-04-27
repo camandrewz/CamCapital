@@ -5,6 +5,13 @@ This is still very much a work in progress. I hope to continue development into 
 
 Exchange: FTX.us
 
+OS: Ubuntu Linux
+
+Dependencies (Thus Far):
+- Boost
+- Poco
+- Fix8
+
 Resources Used:
 - High-frequency trading in a limit order book (Marco Avellaneda & Sasha Stoikov) 
   - (https://people.orie.cornell.edu/sfs33/LimitOrderBook.pdf)
