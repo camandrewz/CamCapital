@@ -1,6 +1,6 @@
-#include "HTTP.h"
+#include "HTTP.hh"
 //#include "util/Encoding.h"
-#include "Time.h"
+#include "Time.hh"
 
 #include <boost/asio/ip/tcp.hpp>
 #include <boost/asio/ssl.hpp>

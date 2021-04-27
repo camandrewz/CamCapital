@@ -1,5 +1,5 @@
-#include "WS/client.h"
-#include "Strategies/marketMaking.h"
+#include "WS/client.hh"
+#include "Strategies/marketMaking.hh"
 #include <External/json.hpp>
 #include <iostream>
 #include <string>

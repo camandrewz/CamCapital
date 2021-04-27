@@ -1,4 +1,4 @@
-#include "WS.h"
+#include "WS.hh"
 
 namespace util {
 
