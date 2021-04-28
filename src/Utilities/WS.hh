@@ -5,12 +5,16 @@
 #include <websocketpp/client.hpp>
 #include <websocketpp/config/asio_client.hpp>
 
+#include <websocketpp/common/thread.hpp>
+#include <websocketpp/common/memory.hpp>
+
 using json = nlohmann::json;
 
-namespace util {
-
-class WS
+namespace util
 {
+
+  class WS
+  {
   public:
     using WSClient = websocketpp::client<websocketpp::config::asio_tls_client>;
     using OnOpenCB = std::function<std::vector<json>()>;
@@ -27,6 +31,7 @@ class WS
 
   private:
     WSClient wsclient;
+    websocketpp::lib::shared_ptr<websocketpp::lib::thread> m_thread;
     WSClient::connection_ptr connection;
     OnOpenCB on_open_cb;
     OnMessageCB on_message_cb;
@@ -34,6 +39,6 @@ class WS
     std::string api_key;
     std::string api_secret;
     std::string subaccount_name;
-};
+  };
 
 }
