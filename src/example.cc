@@ -8,11 +8,6 @@
 
 using json = nlohmann::json;
 
-void print_to_console(std::string str)
-{
-    std::cout << str;
-}
-
 int main()
 {
 
@@ -50,13 +45,11 @@ int main()
             if (profit > 0)
             {
                 aum += profit;
-                std::thread t1(print_to_console, "Market Make Possible! Profit: " + std::to_string(profit) + "\n");
-                t1.join();
+                std::cout << "Market Make Possible! Profit: " + std::to_string(profit) + "\n";
             }
             else
             {
-                std::thread t2(print_to_console, "AUM: " + std::to_string(aum) + "\n");
-                t2.join();
+                std::cout << "AUM: " + std::to_string(aum) + "\n";
             }
         }
 
