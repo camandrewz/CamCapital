@@ -1,7 +1,8 @@
 #pragma once
 
-#include "../Utilities/WS.hh"
-#include <../External/json.hpp>
+#include "Utilities/WS.hh"
+#include <Secrets/secrets.hh>
+#include <External/json.hpp>
 #include <string>
 #include <vector>
 
@@ -25,12 +26,13 @@ class WSClient
     void subscribe_ticker(std::string market);
 
   private:
+  
     std::vector<std::pair<std::string, std::string>> subscriptions;
     util::WS::OnMessageCB message_cb;
     util::WS ws;
     const std::string uri = "wss://ftx.com/ws/";
-    const std::string api_key = "";
-    const std::string api_secret = "";
+    const std::string api_key = Secrets::get_public();
+    const std::string api_secret = Secrets::get_secret();
     const std::string subaccount_name = "";
 };
 

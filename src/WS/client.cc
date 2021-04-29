@@ -1,14 +1,12 @@
 #include "client.hh"
-//#include "util/Encoding.h"
 #include "Utilities/Time.hh"
 #include <utility>
-
-//namespace encoding = util::encoding;
 
 namespace ftx {
 
 WSClient::WSClient()
 {
+
     ws.configure(uri, api_key, api_secret, subaccount_name);
     ws.set_on_open_cb([this]() { return this->on_open(); });
 }

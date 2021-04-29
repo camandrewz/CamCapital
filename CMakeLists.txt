@@ -2,8 +2,10 @@ cmake_minimum_required(VERSION 3.10)
 project(ftxclient)
 
 set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_CXX_FLAGS "-Wall -Werror -Wfatal-errors -Wpedantic -Wextra -Wmissing-include-dirs -Wconversion -Wsign-conversion -pthread")
-add_compile_options(-Wall -Werror -Wfatal-errors -Wpedantic -Wextra -Wmissing-include-dirs -Wconversion -Wsign-conversion -pthread)
+set(CMAKE_CXX_FLAGS "-Wall -Wfatal-errors -Wpedantic -Wextra -Wmissing-include-dirs -Wconversion  -Wsign-conversion -pthread")
+add_compile_options(-Wall -Wfatal-errors -Wpedantic -Wextra -Wmissing-include-dirs -Wconversion -Wsign-conversion -pthread)
+
+#-Werror -Wfatal-errors
 
 set(CMAKE_CXX_FLAGS_DEBUG "-O0 -march=native -g")
 
@@ -15,10 +17,12 @@ link_directories(${Boost_LIBRARY_DIRS})
 include_directories(SYSTEM ${Boost_INCLUDE_DIR})
 
 include_directories(src)
-include_directories(SYSTEM src/external)
+include_directories(src/External/cpp-cryptlite/include/)
 
 add_subdirectory(src/WS)
+add_subdirectory(src/FIX)
 add_subdirectory(src/Strategies)
+add_subdirectory(src/Secrets)
 add_subdirectory(src/Rest)
 add_subdirectory(src/Utilities)
 add_subdirectory(src)
